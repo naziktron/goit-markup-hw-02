@@ -48,6 +48,9 @@ body {
   letter-spacing: 0.02em;
 
 }
+.current {
+  color: var(--accent-color);
+}
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
