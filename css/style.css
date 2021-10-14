@@ -41,7 +41,7 @@ body {
   color: var(--accent-color);
 }
 /* site-nav */
-.menu-link {
+.site-nav-link {
   color: var(--color-text-secondary);
   font-weight: 500;
   line-height: 1.14;
@@ -51,34 +51,36 @@ body {
 .current {
   color: var(--accent-color);
 }
-.menu-link:hover,
-.menu-link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-color);
 
 }
-.header-mail, .header-tel {
+.contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--color-text-secondary);
+  color: var(--primary-text-color);
 }
-.header-mail:hover, .header-mail:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--accent-color);
 }
-.header-tel:hover, .header-tel:focus {
-  color: var(--accent-color);
-}
+
 /* Button */
 .btn {
   color: var(--primary-white-color);
   cursor: pointer;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
+  
+}
+.btn-prime {
+  background:var(--accent-color);
 }
 .btn-second {
   background: var(--bg-color-lite);
@@ -165,8 +167,7 @@ body {
   color: var(--primary-white-color);
 }
 .footer-addres {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -174,13 +175,12 @@ body {
   
 }
 .footer-link {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--bg-color-lite);
+  color: var(--primary-text-color);
 }
 
 
